@@ -1,0 +1,19 @@
+An AI Agent that searches the web and summarizes webpages for you.
+
+
+I am learning to create AI Agents. This is my AI Agent which I have made using ReAct framework. I havem't used any AI Agent framework. This is to learn everthing from the scratch.
+
+You can run this using Gemini API or either running AI model locally.
+I have used Gemini for cloud API and Lliama3.1 for local development using Ollama.
+
+To use with Gemini just run:  
+1. npm install @google/generative-ai
+2. Get GeminiAPI and add in .env file
+
+
+Tools used in this project:
+1. Ollama
+2. Tavily
+3. Gemini
+
+I learned how can we can stop just using LLMs to generate text. If tools are given to them, it is much more than that.
