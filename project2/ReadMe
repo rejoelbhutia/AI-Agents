@@ -1,7 +1,7 @@
 An AI Agent that searches the web and summarizes webpages for you.
 
 
-I am learning to create AI Agents. This is my AI Agent which I have made using ReAct framework. I havem't used any AI Agent framework. This is to learn everthing from the scratch.
+I am learning to create AI Agents. This is my AI Agent which I have made using ReAct framework. I haven't used any AI Agent framework. This is to learn everthing from the scratch.
 
 You can run this using Gemini API or either running AI model locally.
 I have used Gemini for cloud API and Lliama3.1 for local development using Ollama.
