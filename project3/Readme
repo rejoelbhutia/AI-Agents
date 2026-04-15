@@ -1,0 +1,6 @@
+start database in background:
+    docker-compose up -d chroma
+
+
+build and run agent interactively
+    docker-compose up -d chroma

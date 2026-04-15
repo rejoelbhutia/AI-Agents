@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  chroma:
+    image: chromadb/chroma
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+
+  agent:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      CHROMA_URL: "http://chroma:8000"
+      OLLAMA_URL: "http://host.docker.internal:11434"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    stdin_open: true
+    tty: true
+
+volumes:
+  chroma_data:
